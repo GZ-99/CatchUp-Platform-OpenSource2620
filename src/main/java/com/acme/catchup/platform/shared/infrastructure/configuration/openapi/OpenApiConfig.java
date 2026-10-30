@@ -17,7 +17,7 @@ public class OpenApiConfig {
     public OpenAPI catchUpPlatformOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Catch-up Platform API")
+                        .title("Catch-Up Platform API")
                         .version("1.0.1")
                         .description("REST API documentation for the Catch-up Platform bounded contexts.")
                         .contact(new Contact().name("Catch-up Platform Team"))
