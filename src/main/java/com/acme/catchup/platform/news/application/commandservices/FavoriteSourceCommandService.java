@@ -17,7 +17,6 @@ public interface FavoriteSourceCommandService {
      *
      * @param command create a command containing the news API key and source ID
      * @return success when the favorite source is created, failure when the request represents a duplicate favorite source
-     *
      * @throws IllegalArgumentException If newsApiKey or source ID is null or empty
      * @see CreateFavoriteSourceCommand
      */

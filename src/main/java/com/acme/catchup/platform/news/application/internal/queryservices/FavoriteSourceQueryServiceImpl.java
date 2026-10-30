@@ -23,6 +23,7 @@ public class FavoriteSourceQueryServiceImpl implements FavoriteSourceQueryServic
     }
 
     public Optional<FavoriteSource> handle(GetFavoriteSourceByIdQuery q) {
+
         return repository.findById(q.id());
     }
 
